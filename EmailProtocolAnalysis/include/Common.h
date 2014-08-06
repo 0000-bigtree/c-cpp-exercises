@@ -1,5 +1,5 @@
 /**
- * @file 
+ * @file
  * EmailProtocolAnalysis<br/>
  * Common.h<br/>
  * Copyright (c) bigtree 2011-2014. All rights reserved.
@@ -17,6 +17,7 @@
 #define	COMMON_H
 
 #include<log4cplus/logger.h>
+#include<log4cplus/loggingmacros.h>
 #include<log4cplus/configurator.h>
 
 #endif	/* COMMON_H */

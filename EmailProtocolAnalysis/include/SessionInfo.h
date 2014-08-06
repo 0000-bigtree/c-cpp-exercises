@@ -1,5 +1,5 @@
 /**
- * @file 
+ * @file
  * EmailProtocolAnalysis<br/>
  * SessionInfo.h<br/>
  * Copyright (c) bigtree 2011-2014. All rights reserved.
@@ -21,7 +21,7 @@
 #include"Common.h"
 #include"CmdInfo.h"
 
-namespace 
+namespace bigtree_analysis
 {
 
     /**
@@ -76,7 +76,7 @@ namespace
         {
             this->clientIp = clientIp;
         }
-        
+
         unsigned int getClientPort() const
         {
             return clientPort;
@@ -127,19 +127,19 @@ namespace
          * 获取命令序列
          * @return std::vector<::CmdInfo*>，命令序列
          */
-        const std::vector<::CmdInfo*>* getCmds() const;
+        const std::vector<bigtree_analysis::CmdInfo*>* getCmds() const;
 
         /**
          * 设置命令序列
          * @param cmds，命令序列
          */
-        void setCmds(const std::vector<::CmdInfo*> &cmds);
+        void setCmds(const std::vector<bigtree_analysis::CmdInfo*> &cmds);
 
         /**
          * 向命令序列添加命令
          * @param cmd 命令
          */
-        void addCmd(::CmdInfo* cmd);
+        void addCmd(bigtree_analysis::CmdInfo* cmd);
 
     private:
 
@@ -164,7 +164,7 @@ namespace
         /**
          * 命令序列
          */
-        std::vector<::CmdInfo*>* cmdsP;
+        std::vector<bigtree_analysis::CmdInfo*>* cmdsP;
 
         /**
          * 日志对象

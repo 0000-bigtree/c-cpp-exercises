@@ -1,5 +1,5 @@
 /**
- * @file 
+ * @file
  * EmailProtocolAnalysis<br/>
  * CmdInfo.h<br/>
  * Copyright (c) bigtree 2011-2014. All rights reserved.
@@ -19,7 +19,7 @@
 #include<map>
 #include"Common.h"
 
-namespace 
+namespace bigtree_analysis
 {
 
     /**
@@ -123,11 +123,11 @@ namespace
         {
             this->statusId = statusId;
         }
-        
+
         void addProperty(std::pair<int, void*>& property);
-        
+
         void removeProperty(int propertyKey);
-        
+
         void* getProperty(int propertyKey);
 
     private:
@@ -150,7 +150,7 @@ namespace
          * 状态ID
          */
         int statusId;
-        
+
         /**
          * 属性集
          */

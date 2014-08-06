@@ -22,7 +22,7 @@
 #include"SessionId.h"
 #include"SessionInfo.h"
 
-namespace 
+namespace bigtree_analysis
 {
 
     /**

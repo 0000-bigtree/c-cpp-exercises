@@ -1,5 +1,5 @@
 /**
- * @file 
+ * @file
  * EmailProtocolAnalysis<br/>
  * Imap4Analyser.h<br/>
  * Copyright (c) bigtree 2011-2014. All rights reserved.
@@ -20,7 +20,7 @@
 #include"Analyser.h"
 #include"Common.h"
 
-namespace 
+namespace bigtree_analysis
 {
 
     /**

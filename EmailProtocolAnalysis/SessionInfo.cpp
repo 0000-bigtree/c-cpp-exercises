@@ -19,7 +19,7 @@ using std::string;
 using std::vector;
 
 using log4cplus::Logger;
-using ::CmdInfo;
+using bigtree_analysis::CmdInfo;
 
 namespace bigtree_analysis
 {

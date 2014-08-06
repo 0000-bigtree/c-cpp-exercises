@@ -1,5 +1,5 @@
 /**
- * @file 
+ * @file
  * EmailProtocolAnalysis<br/>
  * SessionId.h<br/>
  * Copyright (c) bigtree 2011-2014. All rights reserved.
@@ -22,7 +22,7 @@
 
 #include"Common.h"
 
-namespace 
+namespace bigtree_analysis
 {
 
     /**
@@ -52,7 +52,7 @@ namespace
         /**
          * 赋值操作符
          * @param original 赋值的右操作数，来源
-         * @return SessionId&，被赋值的会话ID 
+         * @return SessionId&，被赋值的会话ID
          */
         SessionId& operator=(const SessionId& original);
 
